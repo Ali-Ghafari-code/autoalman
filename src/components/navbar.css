@@ -1,0 +1,137 @@
+/*343131
+A04747
+D8A25E
+EEDF7A
+*/
+.active{
+    background-color: #A04747;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.sec1 svg{
+    color:#343131 ;
+    font-size:2rem;
+    padding: 2px;
+    margin: 10px;
+    border-radius:5px ;
+}
+header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: linear-gradient(90deg,#D8A25E,#EEDF7A);
+    padding: 20px;
+}
+nav{
+    display: flex;
+    justify-content:center;
+    margin-top: -10px;
+    align-items: center;
+    background: linear-gradient(90deg,#D8A25E,#EEDF7A);
+    padding: 0px;
+} 
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: #343131;
+    padding:0.75rem ;
+    margin: 0 1.5rem;
+}
+nav ul li a:not(.active):hover{
+    background-color: #EEDF7A;
+    color:#343131 ;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.menu{
+    display: none;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+    
+}
+nav .menu span{
+    height: 0.4rem;
+    width: 100%;
+    background-color: black;
+    border-radius: 0.2rem;
+}
+.sec1{
+    display: flex;
+    justify-content: start;
+    padding-left: 0.5rem;
+    align-items: center;
+}
+.sec2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.sec2 input{
+    width: 55%;
+    height: 37px;
+    border: none;
+    text-align: right;
+    border-radius: 3px;
+    outline: none;
+}
+.sec2 input::placeholder{
+    padding-right: 10px;
+    font-size: 1rem;
+    color: black;
+}
+@media (max-width:480px) {
+    .icon svg{
+        font-size:1.75rem;
+    }
+    .icon input{
+        margin-left: 10px;
+        text-align: right;
+        outline: none;
+    }
+    .icon input::placeholder{
+        padding-right: 10px;
+        font-size: 1rem;
+        color: black;
+    }
+    nav .menu{
+        display: flex;
+    }
+    nav{
+        padding: 10px;
+        margin-top: 0.001rem;
+        flex-direction: column;
+        align-items: start;
+        border-bottom-right-radius: 
+        23px;
+    }
+    nav ul{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    nav ul li{
+        width: 100%;
+        text-align: center;
+    }
+    nav ul li a{
+        margin: 0.4rem 0.5rem;
+    }
+    nav ul.open{
+        display: flex;
+        margin-top: 0.5rem;
+        
+    }
+}

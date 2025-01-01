@@ -1,0 +1,50 @@
+.product-details {
+    padding: 20px;
+    margin-top: 40px; /* افزایش فاصله از بالا */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .product-details:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .product-details h2 {
+    margin-bottom: 20px; /* افزایش فاصله از پایین */
+    font-size: 1.8em;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+  }
+  
+  .product-details div {
+    margin-bottom: 12px; /* افزایش فاصله بین آیتم‌ها */
+    font-size: 1.1em;
+  }
+  
+  .product-details div strong {
+    color: #555;
+  }
+  
+  .product-details button {
+    margin-top: 20px; /* افزایش فاصله از بالا */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .product-details button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
