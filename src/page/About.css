@@ -72,10 +72,8 @@ EEDF7A
 .team-img{
     max-width: 140px;
     padding: 6px 6px;
-    background-color: #dedede;
-    -webkit-border-radius:50%;
-    -moz-border-radius:50%;
-    border-radius:50%;
+    background-color: #dedede;    
+    /* border-radius:50%; */
 }
 ul.team-icon{
     margin-top: 25px;

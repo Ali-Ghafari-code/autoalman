@@ -20,7 +20,7 @@ function About(){
 
                                 <div className="col-md-4 divAB">
                                         <div className="team-item">
-                                            <img src="" alt="pic" className="team-img" />   
+                                            <img src="" alt="pic" className="team-img rounded-circle" />   
                                             <h3>محصولات ما</h3>
                                             <hr />
                                             <div className="team-info">
@@ -47,7 +47,7 @@ function About(){
 
                                 <div className="col-sm-6 col-md-4">
                                         <div className="team-item">
-                                            <img src="" alt="pic" className="team-img" />   
+                                            <img src="" alt="pic" className="team-img rounded-circle" />   
                                             <h3>خدمات </h3>
                                             <hr />
                                             <div className="team-info">
@@ -71,7 +71,7 @@ function About(){
                                 </div>
                                 <div className="col-sm-6 col-md-4" >
                                         <div className="team-item">
-                                            <img src="" alt="pic" className="team-img" />   
+                                            <img src="" alt="pic" className="team-img rounded-circle" />   
                                             <h3>خرید حضوری</h3>
                                             <hr />
                                             <div className="team-info">

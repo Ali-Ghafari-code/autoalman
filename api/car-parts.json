@@ -1,36 +1,41 @@
 {
-  "users":[
-    
+  "users": [
+    {
+      "id": "27d6",
+      "username": "ali",
+      "email": "ghafali10@gmail.com",
+      "password": "12345678",
+      "confirmPassword": "12345678"
+    }
   ],
-    "car_parts": [
-      {
-        "id": 1,
-        "name": "Brake Pad",
-        "manufacturer": "ABC Corp",
-        "price": 50,
-        "category": "Brakes"
-      },
-      {
-        "id": 2,
-        "name": "Engine Oil",
-        "manufacturer": "XYZ Oil Co.",
-        "price": 30,
-        "category": "Engine"
-      },
-      {
-        "id": 3,
-        "name": "Tire",
-        "manufacturer": "TireMaker",
-        "price": 100,
-        "category": "Tires"
-      },
-      {
-        "id": 4,
-        "name": "Air Filter",
-        "manufacturer": "FiltersRUs",
-        "price": 20,
-        "category": "Air System"
-      }
-    ]
-  }
-  
+  "car_parts": [
+    {
+      "id": "1",
+      "name": "Brake Pad",
+      "manufacturer": "ABC Corp",
+      "price": 50,
+      "category": "Brakes"
+    },
+    {
+      "id": "2",
+      "name": "Engine Oil",
+      "manufacturer": "XYZ Oil Co.",
+      "price": 30,
+      "category": "Engine"
+    },
+    {
+      "id": "3",
+      "name": "Tire",
+      "manufacturer": "TireMaker",
+      "price": 100,
+      "category": "Tires"
+    },
+    {
+      "id": "4",
+      "name": "Air Filter",
+      "manufacturer": "FiltersRUs",
+      "price": 20,
+      "category": "Air System"
+    }
+  ]
+}
